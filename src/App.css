@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4C566A;
+}
+
+body {
+    min-height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none !important;
+    will-change: color;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* Menú de navegación */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    box-shadow: 0px 5px 10px rgba(216, 222, 233, 0.2);
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+
+    overflow: hidden;
+}
+
+/* Logo de la cabecera y botones*/
+
+.logo {
+    height: auto;
+    max-width: 8rem;
+}
+
+.rifas-btn {
+    background: #DBFBE0;
+    border-radius: 60px;
+    padding: .4rem .8rem;
+}
+
+.rifas-btn>span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-btn {
+    border: 1px solid #E5E9F0;
+    padding: .3rem .5rem;
+    border-radius: 75%;
+    background-color: #fff;
+}
+
+.menu-btn>img {
+    width: 1.2rem;
+    height: auto;
+}
+
+.logo-rif {
+    width: 1.1rem;
+    height: auto;
+}
+
+.carac-img {
+    width: 5rem;
+    height: auto;
+}
+
+/* Tamaño de textos complementarios */
+.fs-80 {
+    font-size: .8rem;
+}
+
+/* Imágenes de la sección de inicio */
+
+.img-inicio {
+    width: 65%;
+    height: auto;
+}
+
+.img-container {
+    max-height: 500px;
+}
+
+
+/* Footer */
+footer {
+    background-color: #F8F9FA;
+    position: sticky;
+    top: 100%;
+}
+
+.foot-opc {
+    color: #4C566A !important;
+    font-weight: 500;
+}
+
+.img-foot {
+    width: 1.8rem;
+    height: auto;
+}
+
+@media (min-width: 768) {}
+
+.tab-menu {
+    height: 3px;
+    background-color: #c3c7ce;
+}
+
+.tab-menu-item {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.tab-opciones {
+    cursor: pointer;
+}
+
+.tab-menu-img {
+    width: 400px;
+    height: 200px;
+}
+
+.ini-cuenta {
+    border-bottom: 2px solid #E5E9F0;
+}
+
+/* Swiper Css */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ini-img-mob {
+    width: 90%; 
+    height: 200px; 
+    background-color: #4C566A;
+}
+
+@media (max-width: 768px) {
+
+    .img-inicio-container{
+        display: none;
+    }
+    
+}
