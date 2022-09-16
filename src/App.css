@@ -64,8 +64,8 @@ ul {
 
 .menu-btn {
     border: 1px solid #E5E9F0;
-    padding: .3rem .5rem;
-    border-radius: 75%;
+    padding: .3rem .8rem;
+    border-radius: 60px;
     background-color: #fff;
 }
 
@@ -117,8 +117,6 @@ footer {
     width: 1.8rem;
     height: auto;
 }
-
-@media (min-width: 768) {}
 
 .tab-menu {
     height: 3px;
@@ -183,10 +181,83 @@ footer {
     background-color: #4C566A;
 }
 
+/* Menú lateral  */
+
+.sideMenu {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right:0; 
+    background-color: #fff !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow:0 0 0 10000px rgba(0,0,0,.50);
+  }
+
+  .img-side-menu{
+    width: 2.2rem; 
+    height: auto; 
+  }
+
+  .img-lupa{
+    width: 1.1rem;
+    height: auto;
+  }
+
+  .side-search {
+    border-bottom: 1px solid black;
+  }
+
+  .side-search input {
+    border: none; 
+    float: right; 
+    width: 80%;
+    font-size: .9rem;  
+  }
+
+  .side-search input:focus {
+    outline: none;
+  }
+
+  .side-search span {
+    float: left; 
+    width: 20%; 
+
+  }
+
+  .side-img{
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+  }
+
+  .side-options {
+    font-size: 12px;
+  }
+
+  .side-btn {
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid black; 
+    border-radius: 5px;
+  }
+
+  .side-btn:hover {
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+  }
+
 @media (max-width: 768px) {
 
     .img-inicio-container{
         display: none;
+    }
+
+    .sideMenu{
+        width: 100vw; 
     }
     
 }

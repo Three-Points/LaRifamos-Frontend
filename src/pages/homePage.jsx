@@ -30,12 +30,12 @@ function HomePage() {
             },
             {
                 titulo: "Describe tu sorteo",
-                descripcion: "La plataforma verifica que la rifa sea posible y una vez validada se registra en la Agencia de Loterías y Quinielas.",
+                descripcion: "Si la rifa cuenta con una cantidad mínima de números para ser aprobada, se comienza la recolección de interesados, los cuales reservan los números.",
                 imagen: "./imgs/inicio2.png"
             },
             {
                 titulo: "Inicio del evento",
-                descripcion: "La plataforma verifica que la rifa sea posible y una vez validada se registra en la Agencia de Loterías y Quinielas.",
+                descripcion: "Se realiza el sorteo con escribano público presente, dando como ganador a un usuario. El vendedor del producto recibe su pago y el ganador su premio!",
                 imagen: "./imgs/inicio3.png"
             }
         ]
