@@ -1,0 +1,13 @@
+# Core directories
+.github
+dist
+
+# Dist directories
+assets
+public
+project
+node_modules
+
+# IDE Directories
+.idea
+.vscode
