@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #4c566a;
+}
+
+body {
+    min-height: 100vh;
+}
+
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0 0;
+}
+
+a {
+    text-decoration: none !important;
+    will-change: color;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+/* Menú de navegación */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1.5rem 0;
+    box-shadow: 0px 5px 10px rgba(216, 222, 233, 0.2);
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+
+    overflow: hidden;
+}
+
+/* Logo de la cabecera y botones*/
+
+.logo {
+    height: auto;
+    max-width: 8rem;
+}
+
+.rifas-btn {
+    background: #dbfbe0;
+    border-radius: 60px;
+    padding: 0.4rem 0.8rem;
+}
+
+.rifas-btn > span {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.menu-btn {
+    border: 1px solid #e5e9f0;
+    padding: 0.3rem 0.8rem;
+    border-radius: 60px;
+    background-color: #fff;
+}
+
+.menu-btn > img {
+    width: 1.2rem;
+    height: auto;
+}
+
+.logo-rif {
+    width: 1.1rem;
+    height: auto;
+}
+
+.carac-img {
+    width: 5rem;
+    height: auto;
+}
+
+/* Tamaño de textos complementarios */
+.fs-80 {
+    font-size: 0.8rem;
+}
+
+/* Imágenes de la sección de inicio */
+
+.img-inicio {
+    width: 65%;
+    height: auto;
+}
+
+.img-container {
+    max-height: 500px;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    position: sticky;
+    top: 100%;
+}
+
+.foot-opc {
+    color: #4c566a !important;
+    font-weight: 500;
+}
+
+.img-foot {
+    width: 1.8rem;
+    height: auto;
+}
+
+.tab-menu {
+    height: 3px;
+    background-color: #c3c7ce;
+}
+
+.tab-menu-item {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.tab-opciones {
+    cursor: pointer;
+}
+
+.tab-menu-img {
+    width: 400px;
+    height: 200px;
+}
+
+.ini-cuenta {
+    border-bottom: 2px solid #e5e9f0;
+}
+
+/* Swiper Css */
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ini-img-mob {
+    width: 90%;
+    height: 200px;
+    background-color: #4c566a;
+}
+
+/* Menú lateral  */
+
+.sideMenu {
+    height: 100%;
+    width: 350px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #fff !important;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5);
+}
+
+.img-side-menu {
+    width: 2.2rem;
+    height: auto;
+}
+
+.img-lupa {
+    width: 1.1rem;
+    height: auto;
+}
+
+.side-search {
+    border-bottom: 1px solid black;
+}
+
+.side-search input {
+    border: none;
+    float: right;
+    width: 80%;
+    font-size: 0.9rem;
+}
+
+.side-search input:focus {
+    outline: none;
+}
+
+.side-search span {
+    float: left;
+    width: 20%;
+}
+
+.side-img {
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.side-options {
+    font-size: 12px;
+}
+
+.side-btn {
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.side-btn:hover {
+    background-color: rgba(0, 0, 0, 0.568);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .img-inicio-container {
+        display: none;
+    }
+
+    .sideMenu {
+        width: 100vw;
+    }
+}
