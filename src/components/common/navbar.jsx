@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import SideMenu from './sideMenu'
+import LogoComponent from './navbarComponents/logoComponent'
+import ProfileButtonComponent from './navbarComponents/profileButtonComponent'
+import SideMenu from './navbarComponents/sideMenu'
 
 function Navbar() {
     const [showSideMenu, setShowSideMenu] = useState(false)
@@ -19,7 +21,7 @@ function Navbar() {
     }
 
     function enableScroll() {
-        window.onscroll = function () {}
+        window.onscroll = function () { }
     }
 
     return (
@@ -33,41 +35,9 @@ function Navbar() {
                 <></>
             )}
             <nav id="barraNavegacion" class="container mt-4">
-                <div class="col-9 d-flex align-items-center mb-3">
-                    <ul class="d-flex align-items-center">
-                        <li class="short">
-                            <img
-                                class="logo"
-                                src="./imgs/Logo_LaRifamos.png"
-                                alt=""
-                            />
-                        </li>
-                        <li class="mx-2">
-                            <a
-                                href=""
-                                class="rifas-btn d-flex align-content-center justify-content-center"
-                            >
-                                <span>Rifas</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-3 d-flex align-items-center justify-content-evenly mb-3">
-                    <button
-                        class="menu-btn"
-                        onClick={() => {
-                            disableScroll()
-                            setShowSideMenu(true)
-                        }}
-                    >
-                        <img
-                            src="./imgs/ToggleBars.svg"
-                            alt=""
-                            className="mx-1"
-                        />
-                        <img src="./imgs/Login.svg" alt="" />
-                    </button>
-                </div>
+                <LogoComponent></LogoComponent>
+
+                <ProfileButtonComponent disableScroll={() => disableScroll()} onButtonClick={(bool) => setShowSideMenu(bool)}></ProfileButtonComponent>
             </nav>
         </>
     )
