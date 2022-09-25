@@ -1,7 +1,8 @@
 import './App.css'
 import Navbar from './components/common/navbar'
 import Footer from './components/common/footer'
-import HomePage from './pages/homePage'
+import HomePage from './pages/homePage/homePage'
+
 
 function App() {
     return (
