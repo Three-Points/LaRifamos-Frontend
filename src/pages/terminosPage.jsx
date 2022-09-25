@@ -1,5 +1,5 @@
 
-function Terminos(){
+function TerminosPage(){
 
     return (
 
@@ -69,4 +69,4 @@ function Terminos(){
 }
 
 
-export default Terminos;
+export default TerminosPage;

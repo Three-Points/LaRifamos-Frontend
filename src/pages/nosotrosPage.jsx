@@ -1,6 +1,6 @@
 
 
-function AboutUs(){
+function AboutUsPage(){
 
 
     return (
@@ -77,4 +77,4 @@ function AboutUs(){
 }
 
 
-export default AboutUs; 
+export default AboutUsPage; 

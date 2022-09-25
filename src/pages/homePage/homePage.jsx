@@ -1,4 +1,4 @@
-import TabsComponent from '../../components/tabsComponent'
+
 import SliderComponent from '../../components/sliderComponent'
 import { useState } from 'react'
 import { useEffect } from 'react'
