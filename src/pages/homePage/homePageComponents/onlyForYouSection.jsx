@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import SliderComponent from "../../../components/sliderComponent";
-import TabsComponent from "../../../components/tabsComponent";
+import TabsComponent from "./tabsComponentHomePage";
 
 function OnlyForYouSection ({titulo, descripcion, opciones}) {
 
