@@ -1,4 +1,4 @@
-function Privacidad(){
+function PrivacidadPage(){
 
 
     return (
@@ -24,4 +24,4 @@ function Privacidad(){
 }
 
 
-export default Privacidad;
+export default PrivacidadPage;
