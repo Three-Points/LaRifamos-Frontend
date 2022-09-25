@@ -60,3 +60,21 @@
     width: 143px;
     height: 48px;
 }
+
+.about_size{
+    width: 181px;
+    height: 48px;
+}
+
+
+footer {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+
+
+
+
+
