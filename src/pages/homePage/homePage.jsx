@@ -1,7 +1,3 @@
-
-import SliderComponent from '../../components/sliderComponent'
-import { useState } from 'react'
-import { useEffect } from 'react'
 import InitialSection from './homePageComponents/initialSection'
 import FeaturesSection from './homePageComponents/featuresSection'
 import OnlyForYouSection from './homePageComponents/onlyForYouSection'

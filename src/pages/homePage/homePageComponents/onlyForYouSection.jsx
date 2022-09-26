@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import SliderComponent from "../../../components/sliderComponent";
+import SliderComponentHome from "./sliderComponentHome";
 import TabsComponent from "./tabsComponentHomePage";
 
 function OnlyForYouSection ({titulo, descripcion, opciones}) {
@@ -26,7 +26,7 @@ function OnlyForYouSection ({titulo, descripcion, opciones}) {
             </div>
         ) : (
             <div className="container mt-2 d-flex align-items-center justify-content-center">
-                <SliderComponent></SliderComponent>
+                <SliderComponentHome></SliderComponentHome>
             </div>
         )}
         </>
