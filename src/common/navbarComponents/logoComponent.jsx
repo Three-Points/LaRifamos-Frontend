@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function LogoComponent() {
     return (
-        <div className="col-9 d-flex align-items-center mb-3">
+        <div className="d-flex flex-lg-grow-1 align-items-center mb-3 order-1">
             <ul className="d-flex align-items-center">
                 <li className="short">
                     <Link to="/">
@@ -14,7 +14,7 @@ function LogoComponent() {
                     </Link>
                 </li>
                 <li className="mx-2">
-                    <Link to="/aboutus"
+                    <Link to="/rifas"
                         className="rifas-btn d-flex align-content-center justify-content-center"
                     >
                         <span>Rifas</span>

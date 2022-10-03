@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 
-function TabsCpomponent({ titulo, descripcion, opciones }) {
+function TabsComponent({ titulo, descripcion, opciones }) {
     const [opcionActiva, setOpcionActiva] = useState(opciones[0])
 
     return (
@@ -49,4 +49,4 @@ function TabsCpomponent({ titulo, descripcion, opciones }) {
     )
 }
 
-export default TabsCpomponent
+export default TabsComponent

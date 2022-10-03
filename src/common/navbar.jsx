@@ -1,10 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import LogoComponent from './navbarComponents/logoComponent'
 import ProfileButtonComponent from './navbarComponents/profileButtonComponent'
 import SideMenu from './navbarComponents/sideMenu'
 
 function Navbar() {
-    const [showSideMenu, setShowSideMenu] = useState(false)
+
+    const [showSideMenu, setShowSideMenu] = useState(false);
 
     function disableScroll() {
         // Get the current page scroll position
@@ -36,11 +37,10 @@ function Navbar() {
             )}
             <nav id="barraNavegacion" class="container mt-4">
                 <LogoComponent></LogoComponent>
-
                 <ProfileButtonComponent disableScroll={() => disableScroll()} onButtonClick={(bool) => setShowSideMenu(bool)}></ProfileButtonComponent>
             </nav>
         </>
     )
 }
 
-export default Navbar
+export default Navbar; 

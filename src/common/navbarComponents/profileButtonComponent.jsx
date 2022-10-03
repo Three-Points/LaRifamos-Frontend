@@ -1,6 +1,6 @@
 function ProfileButtonComponent({disableScroll, onButtonClick}) {
     return (
-        <div class="col-3 d-flex align-items-center justify-content-evenly mb-3">
+        <div class="d-flex flex-lg-grow-1 align-items-center justify-content-end mb-3 order-2 order-md-3">
             <button
                 class="menu-btn"
                 onClick={() => {

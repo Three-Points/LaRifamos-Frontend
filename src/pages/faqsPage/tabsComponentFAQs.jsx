@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function TabsComponentFAQS ({preguntas}) {
+function TabsComponentFAQS ({questions}) {
     const [opcionActiva, setOpcionActiva] = useState(preguntas[0])
 
     return (
