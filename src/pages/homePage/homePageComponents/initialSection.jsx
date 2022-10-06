@@ -1,6 +1,4 @@
-
 function InitialSection() {
-
     return (
         <div className="container px-4 mt-md-5 d-flex flex-md-row mb-3">
             <div className="col-12 col-md-6 mt-md-5">
@@ -33,14 +31,10 @@ function InitialSection() {
                 </div>
             </div>
             <div className="col-6 img-fluid text-center img-inicio-container">
-                <img
-                    src="./imgs/inicio.png"
-                    alt=""
-                    className="img-inicio"
-                />
+                <img src="./imgs/inicio.png" alt="" className="img-inicio" />
             </div>
         </div>
     )
 }
 
-export default InitialSection;
+export default InitialSection

@@ -21,7 +21,7 @@ function Navbar() {
     }
 
     function enableScroll() {
-        window.onscroll = function () { }
+        window.onscroll = function () {}
     }
 
     return (
@@ -37,7 +37,10 @@ function Navbar() {
             <nav id="barraNavegacion" class="container mt-4">
                 <LogoComponent></LogoComponent>
 
-                <ProfileButtonComponent disableScroll={() => disableScroll()} onButtonClick={(bool) => setShowSideMenu(bool)}></ProfileButtonComponent>
+                <ProfileButtonComponent
+                    disableScroll={() => disableScroll()}
+                    onButtonClick={(bool) => setShowSideMenu(bool)}
+                ></ProfileButtonComponent>
             </nav>
         </>
     )

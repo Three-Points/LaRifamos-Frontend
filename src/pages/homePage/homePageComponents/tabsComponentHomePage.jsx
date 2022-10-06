@@ -1,4 +1,4 @@
-import React, { useState} from 'react'
+import React, { useState } from 'react'
 
 function TabsCpomponent({ titulo, descripcion, opciones }) {
     const [opcionActiva, setOpcionActiva] = useState(opciones[0])

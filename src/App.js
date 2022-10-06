@@ -8,17 +8,16 @@ import AboutUsPage from './pages/nosotrosPage'
 import PrivacidadPage from './pages/privacidadPage'
 import TerminosPage from './pages/terminosPage'
 
-
 function App() {
     return (
         <>
             <Navbar></Navbar>
             <Routes>
-                <Route path="/" element={<HomePage/>}></Route>
-                <Route path="/faqs" element={<FaqsPage/>}></Route>
-                <Route path="/aboutus" element={<AboutUsPage/>}></Route>
-                <Route path="/privacidad" element={<PrivacidadPage/>}></Route>
-                <Route path="/terminos" element={<TerminosPage/>}></Route>
+                <Route path="/" element={<HomePage />}></Route>
+                <Route path="/faqs" element={<FaqsPage />}></Route>
+                <Route path="/aboutus" element={<AboutUsPage />}></Route>
+                <Route path="/privacidad" element={<PrivacidadPage />}></Route>
+                <Route path="/terminos" element={<TerminosPage />}></Route>
             </Routes>
             <Footer></Footer>
         </>

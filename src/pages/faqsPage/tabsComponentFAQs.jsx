@@ -1,6 +1,6 @@
-import { useState } from "react";
+import { useState } from 'react'
 
-function TabsComponentFAQS ({preguntas}) {
+function TabsComponentFAQS({ preguntas }) {
     const [opcionActiva, setOpcionActiva] = useState(preguntas[0])
 
     return (
@@ -38,7 +38,12 @@ function TabsComponentFAQS ({preguntas}) {
             <div className="container px-lg-4 mt-5 d-flex align-items-center align-content-center">
                 <div className="col-12 px-5">
                     {opcionActiva.preguntas.map((pregunta) => {
-                        return <><h6 className="mb-1">{pregunta.pregunta}</h6><p className="mb-5">{pregunta.respuesta}</p></>; 
+                        return (
+                            <>
+                                <h6 className="mb-1">{pregunta.pregunta}</h6>
+                                <p className="mb-5">{pregunta.respuesta}</p>
+                            </>
+                        )
                     })}
                 </div>
             </div>
@@ -46,4 +51,4 @@ function TabsComponentFAQS ({preguntas}) {
     )
 }
 
-export default TabsComponentFAQS; 
+export default TabsComponentFAQS

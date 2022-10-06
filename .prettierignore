@@ -1,6 +1,6 @@
 # Core directories
 .github
-dist
+build
 
 # Dist directories
 assets
@@ -10,4 +10,3 @@ node_modules
 
 # IDE Directories
 .idea
-.vscode

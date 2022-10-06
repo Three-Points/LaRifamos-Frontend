@@ -1,185 +1,194 @@
-[{
-    "titulo": "nulla",
-    "precio": 195.83,
-    "fecha_inicio": "09/10/2021",
-    "participantes": 267,
-    "total_participantes": 131,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/206x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/226x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/242x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/198x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/132x100.png/cc0000/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "eros",
-    "precio": 168.45,
-    "fecha_inicio": "18/06/2023",
-    "participantes": 213,
-    "total_participantes": 108,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/173x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/135x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/246x100.png/ff4444/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/104x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/223x100.png/5fa2dd/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "nascetur",
-    "precio": 157.48,
-    "fecha_inicio": "28/02/2023",
-    "participantes": 907,
-    "total_participantes": 90,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/111x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/213x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/207x100.png/dddddd/000000"
-      }
-    ]
-  }, {
-    "titulo": "nam",
-    "precio": 212.01,
-    "fecha_inicio": "13/02/2023",
-    "participantes": 463,
-    "total_participantes": 4,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/166x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/239x100.png/ff4444/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/222x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/168x100.png/cc0000/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "porttitor",
-    "precio": 76.45,
-    "fecha_inicio": "31/07/2023",
-    "participantes": 956,
-    "total_participantes": 2,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/198x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/120x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/222x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/124x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/204x100.png/cc0000/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "ultrices",
-    "precio": 190.32,
-    "fecha_inicio": "16/11/2021",
-    "participantes": 871,
-    "total_participantes": 66,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/110x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/211x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/111x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/142x100.png/ff4444/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/200x100.png/ff4444/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "massa",
-    "precio": 136.23,
-    "fecha_inicio": "10/12/2022",
-    "participantes": 646,
-    "total_participantes": 33,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/203x100.png/dddddd/000000"
-      },
-      {
-        "url": "http://dummyimage.com/220x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/172x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/119x100.png/ff4444/ffffff"
-      }
-    ]
-  }, {
-    "titulo": "morbi",
-    "precio": 107.93,
-    "fecha_inicio": "24/10/2021",
-    "participantes": 487,
-    "total_participantes": 149,
-    "imagenes": [
-      {
-        "url": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/130x100.png/5fa2dd/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/246x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/247x100.png/cc0000/ffffff"
-      },
-      {
-        "url": "http://dummyimage.com/187x100.png/5fa2dd/ffffff"
-      }
-    ]
-  }]
+[
+    {
+        "titulo": "nulla",
+        "precio": 195.83,
+        "fecha_inicio": "09/10/2021",
+        "participantes": 267,
+        "total_participantes": 131,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/206x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/226x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/242x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/198x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/132x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "eros",
+        "precio": 168.45,
+        "fecha_inicio": "18/06/2023",
+        "participantes": 213,
+        "total_participantes": 108,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/173x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/135x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/246x100.png/ff4444/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/104x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/223x100.png/5fa2dd/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "nascetur",
+        "precio": 157.48,
+        "fecha_inicio": "28/02/2023",
+        "participantes": 907,
+        "total_participantes": 90,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/168x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/111x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/213x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/184x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/207x100.png/dddddd/000000"
+            }
+        ]
+    },
+    {
+        "titulo": "nam",
+        "precio": 212.01,
+        "fecha_inicio": "13/02/2023",
+        "participantes": 463,
+        "total_participantes": 4,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/166x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/182x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/239x100.png/ff4444/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/222x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/168x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "porttitor",
+        "precio": 76.45,
+        "fecha_inicio": "31/07/2023",
+        "participantes": 956,
+        "total_participantes": 2,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/198x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/120x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/222x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/124x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/204x100.png/cc0000/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "ultrices",
+        "precio": 190.32,
+        "fecha_inicio": "16/11/2021",
+        "participantes": 871,
+        "total_participantes": 66,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/110x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/211x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/111x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/142x100.png/ff4444/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/200x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "massa",
+        "precio": 136.23,
+        "fecha_inicio": "10/12/2022",
+        "participantes": 646,
+        "total_participantes": 33,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/203x100.png/dddddd/000000"
+            },
+            {
+                "url": "http://dummyimage.com/220x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/172x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/100x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/119x100.png/ff4444/ffffff"
+            }
+        ]
+    },
+    {
+        "titulo": "morbi",
+        "precio": 107.93,
+        "fecha_inicio": "24/10/2021",
+        "participantes": 487,
+        "total_participantes": 149,
+        "imagenes": [
+            {
+                "url": "http://dummyimage.com/181x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/130x100.png/5fa2dd/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/246x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/247x100.png/cc0000/ffffff"
+            },
+            {
+                "url": "http://dummyimage.com/187x100.png/5fa2dd/ffffff"
+            }
+        ]
+    }
+]

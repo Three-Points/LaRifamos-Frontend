@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
 function LogoComponent() {
     return (
@@ -14,7 +14,8 @@ function LogoComponent() {
                     </Link>
                 </li>
                 <li className="mx-2">
-                    <Link to="/aboutus"
+                    <Link
+                        to="/aboutus"
                         className="rifas-btn d-flex align-content-center justify-content-center"
                     >
                         <span>Rifas</span>
@@ -22,8 +23,7 @@ function LogoComponent() {
                 </li>
             </ul>
         </div>
-
-    );
+    )
 }
 
-export default LogoComponent; 
+export default LogoComponent

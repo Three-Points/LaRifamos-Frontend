@@ -1,9 +1,8 @@
-import TabsComponentFAQS from "./tabsComponentFAQs";
-import data from '../../data/faqs.json'; 
+import TabsComponentFAQS from './tabsComponentFAQs'
+import data from '../../data/faqs.json'
 
 function FaqsPage() {
-
-    const preguntas = data.faqs; 
+    const preguntas = data.faqs
     return (
         <>
             <div className="container mt-4">
@@ -11,7 +10,7 @@ function FaqsPage() {
                 <TabsComponentFAQS preguntas={preguntas}></TabsComponentFAQS>
             </div>
         </>
-    );
+    )
 }
 
-export default FaqsPage; 
+export default FaqsPage
