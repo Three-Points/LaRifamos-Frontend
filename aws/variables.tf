@@ -13,7 +13,7 @@ variable "project" {
 
 variable "gh_repository" {
   description = "Github repository"
-  default     = "https://github.com/Three-Points/LaRifamos-Backend"
+  default     = "https://github.com/Three-Points/LaRifamos-Frontend"
 }
 
 variable "gh_access_token" {
