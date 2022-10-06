@@ -8,12 +8,12 @@ variable "region" {
 
 variable "project" {
   description = "AWS project name"
-  default     = "ignite"
+  default     = "LaRifamos"
 }
 
 variable "gh_repository" {
   description = "Github repository"
-  default     = "https://github.com/roremdev/Ignite"
+  default     = "https://github.com/Three-Points/LaRifamos-Backend"
 }
 
 variable "gh_access_token" {
