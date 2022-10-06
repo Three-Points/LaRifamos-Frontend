@@ -22,3 +22,7 @@ yarn-error.log*
 
 # IDE
 .idea
+# terraform
+**/.terraform
+*.tfstate
+*.tfstate.*

@@ -1,0 +1,19 @@
+name: "Commands"
+on:
+  repository_dispatch:
+    types: [help-command]
+jobs:
+  help:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🤖 Bot comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          comment-id: ${{ github.event.client_payload.github.payload.comment.id }}
+          reaction-type: laugh
+          body: |
+            #### 📖 Commands on ChatOps
+            > | Command      | Description
+            > | ------------ | -------------------------------------------- 
+            > | `/provision` | Provision infrastructure on the current issue.
