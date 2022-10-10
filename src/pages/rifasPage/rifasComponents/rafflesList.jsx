@@ -15,9 +15,10 @@ function RafflesList({raffles, search}) {
                             .filter((raffle) => raffle.category === (categoryCard.title) || categoryCard === "")
                             .map((raffle) => {
                                 return <RaffleCard init_date={raffle.init_date}
+                                            id={raffle.id}
                                             image={raffle.images[0].url}
                                             participants={raffle.participants}
-                                            prize={raffle.prize}
+                                            price={raffle.price}
                                             title={raffle.title}
                                             total_participants={raffle.total_participants}></RaffleCard>;
                             })}
