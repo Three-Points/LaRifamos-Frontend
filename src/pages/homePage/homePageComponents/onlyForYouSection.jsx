@@ -1,18 +1,11 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { ViewWidthContext } from "../../../App";
 import SliderComponentHome from "./sliderComponentHome";
 import TabsComponent from "./tabsComponentHomePage";
 
 function OnlyForYouSection ({titulo, descripcion, opciones}) {
 
-    const [viewWidth, setViewWidth] = useState(window.innerWidth);
-
-    useEffect(() => {
-        function handleResize() {
-            setViewWidth(window.innerWidth)
-        }
-
-        window.addEventListener('resize', handleResize)
-    }); 
+    const {viewWidth, setViewWidth} = useContext(ViewWidthContext);
 
     return (
         <>

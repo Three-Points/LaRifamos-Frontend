@@ -18,16 +18,19 @@
     "@fortawesome/free-regular-svg-icons": "6.2.0",
     "@fortawesome/free-solid-svg-icons": "6.2.0",
     "@fortawesome/react-fontawesome": "0.2.0",
+    "axios": "1.1.2",
     "bootstrap": "5.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-router-dom": "6.4.1",
     "react-scripts": "5.0.1",
+    "react-simple-image-viewer": "1.2.2",
     "swiper": "8.3.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.1.2",
     "@commitlint/config-conventional": "17.1.0",
+    "@faker-js/faker": "7.5.0",
     "@storybook/addon-actions": "6.5.12",
     "@storybook/addon-essentials": "6.5.12",
     "@storybook/addon-interactions": "6.5.12",
@@ -40,6 +43,7 @@
     "@storybook/testing-library": "0.0.13",
     "babel-plugin-named-exports-order": "0.0.2",
     "husky": "8.0.1",
+    "miragejs": "0.1.45",
     "prettier": "2.7.1",
     "prop-types": "15.8.1",
     "webpack": "5.74.0"
