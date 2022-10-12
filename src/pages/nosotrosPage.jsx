@@ -1,7 +1,8 @@
 function AboutUsPage() {
     return (
         <>
-            <div class="container">
+            <div class = "container content">
+                
                 <div class="row m-5">
                     <h1> Nosotros </h1>
 
