@@ -14,7 +14,7 @@ function TabsComponent({ titulo, descripcion, opciones }) {
                             className="col text-center"
                             onClick={() => setOpcionActiva(opcion)}
                         >
-                            <p className="mb-2">{opcion.titulo}</p>
+                            <p className="mb-2 fw-bold">{opcion.titulo}</p>
                         </div>
                     )
                 })}

@@ -3,9 +3,9 @@ function PrivacidadPage(){
 
     return (
 
-        <>
+  
         
-        <div class = "container">
+        <div class = "container content">
 
             <h1 class = "m-5 fw-bold"> Privacidad </h1>
 
@@ -15,7 +15,6 @@ function PrivacidadPage(){
         </div>
         
         
-        </>
 
 
     )

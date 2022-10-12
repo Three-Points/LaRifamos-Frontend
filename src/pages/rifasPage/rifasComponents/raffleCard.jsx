@@ -22,7 +22,7 @@ function RaffleCard({
                 <div className="rifa-card-img-container">
                     <img src={image} alt="" className="rifa-card-img" />
                 </div>
-                <div className="rifa-card-txt d-flex flex-column px-4">
+                <div className="rifa-card-txt mt-2 d-flex flex-column px-4">
                     <div className=" mb-2 row">
                         <div className="col-8">
                             <span className="h6">{title}</span>

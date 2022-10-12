@@ -10,7 +10,7 @@ function OnlyForYouSection ({titulo, descripcion, opciones}) {
     return (
         <>
         {viewWidth >= 768 ? (
-            <div className="container mt-2 mt-lg-5">
+            <div className="container only-fy-section mt-2 mt-lg-5">
                 <TabsComponent
                     titulo={titulo}
                     descripcion={descripcion}
@@ -18,7 +18,7 @@ function OnlyForYouSection ({titulo, descripcion, opciones}) {
                 ></TabsComponent>
             </div>
         ) : (
-            <div className="container mt-2 d-flex align-items-center justify-content-center">
+            <div className="container only-fy-section mt-2 d-flex align-items-center justify-content-center">
                 <SliderComponentHome></SliderComponentHome>
             </div>
         )}

@@ -26,7 +26,7 @@ function RaffleDetailPage() {
     }, [])
 
     return (
-        <div className="container mb-5">
+        <div className="container mb-5 content">
             <RaffleContext.Provider value={{ raffle, setRaffle }}>
                 {showRaffle ? (
                     <>

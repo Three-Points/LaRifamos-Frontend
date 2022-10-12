@@ -35,7 +35,7 @@ function Navbar() {
             ) : (
                 <></>
             )}
-            <nav id="barraNavegacion" class="container mt-4">
+            <nav id="barraNavegacion" class="container mt-4 mb-0">
                 <LogoComponent></LogoComponent>
                 <ProfileButtonComponent disableScroll={() => disableScroll()} onButtonClick={(bool) => setShowSideMenu(bool)}></ProfileButtonComponent>
             </nav>

@@ -5,9 +5,9 @@ import UnitsBoxPrice from "./raffleDetailUnitsBoxComponents/unitsBoxPrice";
 
 function RaffleDetailUnitsBox () {
     return (
-        <div class="col-12 col-lg-5 order-0 mb-5">
+        <div class="col-12 col-lg-5 only-fy-section mt-0 order-0 mb-5">
             <div
-              class="row p-5 pb-2 rifa-detail-container justify-content-center"
+              class="row p-5 pb-2 justify-content-center"
             >
               <div class="row rifa-detail-table px-0">
                 <UnitsBoxDates></UnitsBoxDates>

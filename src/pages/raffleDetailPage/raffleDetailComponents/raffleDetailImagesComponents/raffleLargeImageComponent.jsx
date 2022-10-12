@@ -12,7 +12,7 @@ function RaffleLargeImageComponent({firstImage, secondaryImages, onClickImage}) 
                 </div>
             </div>
 
-            <div className="col-6 d-flex flex-wrap gap-2">
+            <div className="col-6 d-flex flex-wrap justify-content-end gap-2">
                 {secondaryImages.map((image, index) => {
                     return (
                         <div className="rifa-detail-img-secundaria-container">

@@ -1,3 +1,6 @@
+import toggleBars from '../../images/ToggleBars.svg';
+import login from '../../images/Login.svg';
+
 function ProfileButtonComponent({disableScroll, onButtonClick}) {
     return (
         <div class="d-flex flex-lg-grow-1 align-items-center justify-content-end mb-3 order-2 order-md-3">
@@ -9,11 +12,11 @@ function ProfileButtonComponent({disableScroll, onButtonClick}) {
                 }}
             >
                 <img
-                    src="./imgs/ToggleBars.svg"
+                    src={toggleBars}
                     alt=""
                     className="mx-1"
                 />
-                <img src="./imgs/Login.svg" alt="" />
+                <img src={login} alt="" />
             </button>
         </div>
     );

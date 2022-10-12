@@ -30,7 +30,7 @@ function RafflesPage() {
     }, [])
 
     return (
-        <>
+        <div className='content'>
             <CategoryCardContext.Provider
                 value={{ categoryCard, setCategoryCard }}
             >
@@ -47,7 +47,7 @@ function RafflesPage() {
                     
                 </SearchRaffleContext.Provider>
             </CategoryCardContext.Provider>
-        </>
+        </div>
     )
 }
 

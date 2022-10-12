@@ -4,7 +4,7 @@ import RaffleDetailUnitsBox from "./raffleDetailUnitsBox";
 function RaffleDetailContainer () {
     return(
         <div className="container rifa-detail-description-container">
-        <div className="row">
+        <div className="row px-4">
           <RaffleDetailDescription></RaffleDetailDescription>
           <RaffleDetailUnitsBox></RaffleDetailUnitsBox>
         </div>

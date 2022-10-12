@@ -2,9 +2,7 @@
 function TerminosPage(){
 
     return (
-
-        <>
-            <div class = "container">
+            <div class = "container content">
 
                 <h1>Términos y Condiciones</h1>
 
@@ -60,7 +58,6 @@ function TerminosPage(){
 
             </div>
         
-        </>
 
 
     )

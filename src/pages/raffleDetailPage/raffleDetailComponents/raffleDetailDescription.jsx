@@ -14,7 +14,7 @@ function RaffleDetailDescription() {
                 </span>
             </div>
             <hr className="rifa-detail-line" />
-            <div className="mt-4 container">
+            <div className="mt-4 rifa-detail-description">
                 <h6>Descripción</h6>
                 <p>{raffle.description}</p>
             </div>

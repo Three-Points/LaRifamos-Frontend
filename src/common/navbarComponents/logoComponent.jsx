@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import logo from '../../images/Logo_LaRifamos.png';
+
 
 function LogoComponent() {
     return (
@@ -8,7 +10,7 @@ function LogoComponent() {
                     <Link to="/">
                         <img
                             className="logo"
-                            src="./imgs/Logo_LaRifamos.png"
+                            src={logo}
                             alt=""
                         />
                     </Link>
