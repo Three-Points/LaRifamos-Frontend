@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 
-function WebLinksComponent () {
-    return(
+function WebLinksComponent() {
+    return (
         <ul className="order-1 order-md-3 d-flex flex-row justify-content-between px-3 pt-3">
                     <li className="mx-md-1">
                         <Link to="aboutus" className="foot-opc">
@@ -27,4 +27,4 @@ function WebLinksComponent () {
     ) 
 }
 
-export default WebLinksComponent; 
+export default WebLinksComponent

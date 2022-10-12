@@ -23,7 +23,7 @@ function OnlyForYouSection ({titulo, descripcion, opciones}) {
             </div>
         )}
         </>
-    ); 
+    )
 }
 
-export default OnlyForYouSection; 
+export default OnlyForYouSection

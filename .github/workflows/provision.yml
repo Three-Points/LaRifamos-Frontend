@@ -1,0 +1,103 @@
+name: "Provision Infrastructure"
+
+on:
+  repository_dispatch:
+    types: [ provision-command ]
+
+jobs:
+  reference:
+    runs-on: ubuntu-latest
+
+    env:
+      ISSUE: ${{ toJSON(github.event.client_payload.github.payload.issue) }}
+
+    outputs:
+      workspace: ${{ steps.feature.outputs.result }}
+      branch: ${{ steps.branch.outputs.result }}
+
+    steps:
+      - name: ✍️ Name of workspace
+        uses: actions/github-script@v6
+        id: feature
+        env:
+          ISSUE: ${{ env.ISSUE }}
+        with:
+          result-encoding: string
+          script: |
+            const kebabCase = string => string.replace(/([a-z])([A-Z])/g, '$1-$2').replace(/\s+/g, '-').toLowerCase()
+            return kebabCase(JSON.parse(process.env.ISSUE).title)
+
+      - name: ✍️ Name of branch
+        uses: actions/github-script@v6
+        id: branch
+        env:
+          ISSUE: ${{ env.ISSUE }}
+          FEATURE: ${{ steps.feature.outputs.result }}
+        with:
+          result-encoding: string
+          script: |
+            const issue = JSON.parse(process.env.ISSUE)
+            const label = issue.labels.find(({name}) => name === 'feat' || name === 'refactor' || name === 'fix')
+            return `${label.name}/issue-${issue.number}/${process.env.FEATURE}`
+
+  provision:
+    runs-on: ubuntu-latest
+    needs: [ reference ]
+    environment: Amplify
+    continue-on-error: true
+
+    defaults:
+      run:
+        working-directory: aws/feature
+
+    outputs:
+      init: ${{ steps.terraform_init.outcome }}
+
+    steps:
+      - name: ⚙️ Configure GitHub Actions
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Configure Terraform
+        uses: hashicorp/setup-terraform@v2
+        with:
+          cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
+
+      - name: 🛠 Create branch
+        uses: peterjgrainger/action-create-branch@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          branch: ${{ needs.reference.outputs.branch }}
+
+      - name: 🚧 Defining environment context
+        run: |
+          mkdir .terraform
+          cd .terraform
+          echo development >> environment
+
+      - name: ♻️ Terraform workspace
+        id: terraform_init
+        continue-on-error: true
+        run: |
+          terraform init
+          terraform workspace new ${{ needs.reference.outputs.workspace }}
+
+      - name: 🛠 Terraform operations
+        if: ${{ steps.terraform_init.outcome == 'success' }}
+        id: terraform_apply
+        run: |
+          terraform apply -auto-approve \
+            -var="env_branch=${{ needs.reference.outputs.branch }}" \
+            -var="env_feature=${{ needs.reference.outputs.workspace }}" \
+            -var="app_id=${{ secrets.APP_ID }}"
+
+      - name: 🤖 Bot comment
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          repository: ${{ github.event.client_payload.github.payload.repository.full_name }}
+          comment-id: ${{ github.event.client_payload.github.payload.comment.id }}
+          reaction-type: rocket
+          body: |
+            🏗 Provision **${{ needs.reference.outputs.workspace }}** on **${{ needs.reference.outputs.branch }}**
+              - 🚧 Terraform init `${{ steps.terraform_init.outcome == 'success' && 'completed' || 're-used' }}`
+              - 🚧 Terraform apply `${{ steps.terraform_apply.outcome == 'success' && 'completed' || 'no-changes' }}`

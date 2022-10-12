@@ -19,4 +19,4 @@ function StartWinningSection () {
     ); 
 }
 
-export default StartWinningSection; 
+export default StartWinningSection

@@ -60,4 +60,4 @@ function FeaturesSection () {
     )
 }
 
-export default FeaturesSection; 
+export default FeaturesSection

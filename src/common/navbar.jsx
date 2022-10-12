@@ -22,7 +22,7 @@ function Navbar() {
     }
 
     function enableScroll() {
-        window.onscroll = function () { }
+        window.onscroll = function () {}
     }
 
     return (

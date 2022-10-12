@@ -1,5 +1,5 @@
-import TabsComponentFAQS from "./tabsComponentFAQs";
-import data from '../../data/faqs.json'; 
+import TabsComponentFAQS from './tabsComponentFAQs'
+import data from '../../data/faqs.json'
 
 function FaqsPage() {
 
@@ -11,7 +11,7 @@ function FaqsPage() {
                 <TabsComponentFAQS questions={questions}></TabsComponentFAQS>
             </div>
         </>
-    );
+    )
 }
 
-export default FaqsPage; 
+export default FaqsPage

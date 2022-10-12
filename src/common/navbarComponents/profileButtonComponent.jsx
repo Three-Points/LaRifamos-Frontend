@@ -19,7 +19,7 @@ function ProfileButtonComponent({disableScroll, onButtonClick}) {
                 <img src={login} alt="" />
             </button>
         </div>
-    );
+    )
 }
 
-export default ProfileButtonComponent; 
+export default ProfileButtonComponent

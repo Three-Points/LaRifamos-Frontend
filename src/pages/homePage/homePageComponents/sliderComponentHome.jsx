@@ -51,7 +51,7 @@ function SliderComponentHome() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div class="container mt-2 mt-lg-5">
+                <div class="container mt-2 mt-lg-5">
                     <h2 class="text-center fw-bold">Solo para ti</h2>
                     <p class="fs-80 text-center mb-3">
                         Teniendo su cuenta de LaRfiamos, hace que sea fácil
@@ -71,7 +71,7 @@ function SliderComponentHome() {
                 </div>
             </SwiperSlide>
             <SwiperSlide>
-            <div class="container mt-2 mt-lg-5">
+                <div class="container mt-2 mt-lg-5">
                     <h2 class="text-center fw-bold">Solo para ti</h2>
                     <p class="fs-80 text-center mb-3">
                         Teniendo su cuenta de LaRfiamos, hace que sea fácil
@@ -94,4 +94,4 @@ function SliderComponentHome() {
     )
 }
 
-export default SliderComponentHome; 
+export default SliderComponentHome

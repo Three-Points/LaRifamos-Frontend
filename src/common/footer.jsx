@@ -1,5 +1,5 @@
-import SocialNetworksComponent from "./footerComponents/socialNetworksComponent"
-import WebLinksComponent from "./footerComponents/webLinksComponent"
+import SocialNetworksComponent from './footerComponents/socialNetworksComponent'
+import WebLinksComponent from './footerComponents/webLinksComponent'
 
 function Footer() {
     return (

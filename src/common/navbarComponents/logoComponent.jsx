@@ -24,8 +24,7 @@ function LogoComponent() {
                 </li>
             </ul>
         </div>
-
-    );
+    )
 }
 
-export default LogoComponent; 
+export default LogoComponent

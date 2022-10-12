@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState } from 'react'
 
 function TabsComponentFAQS ({questions}) {
     const [opcionActiva, setOpcionActiva] = useState(questions[0])
@@ -46,4 +46,4 @@ function TabsComponentFAQS ({questions}) {
     )
 }
 
-export default TabsComponentFAQS; 
+export default TabsComponentFAQS
