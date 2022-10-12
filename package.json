@@ -4,6 +4,7 @@
   "description": "LaRifamos Web",
   "main": "./src/main.js",
   "scripts": {
+    "prepare": "husky install",
     "format": "npx prettier --write .",
     "start": "react-scripts start",
     "build": "react-scripts build",

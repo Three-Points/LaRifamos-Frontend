@@ -1,21 +1,14 @@
 function PrivacidadPage() {
-    return (
+  return (
+    <div class="container content">
+      <h1 class="m-5 fw-bold"> Privacidad </h1>
 
-  
-        
-        <div class = "container content">
-
-            <h1 class = "m-5 fw-bold"> Privacidad </h1>
-
-            <p>Todas nuestras rifas aprobadas son notificadas con anticipación a las Loterías y Quinielas.</p>
-        
-        
-        </div>
-        
-        
-
-
-    )
+      <p>
+        Todas nuestras rifas aprobadas son notificadas con anticipación a las
+        Loterías y Quinielas.
+      </p>
+    </div>
+  );
 }
 
-export default PrivacidadPage
+export default PrivacidadPage;
