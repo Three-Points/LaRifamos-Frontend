@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function TabsCpomponent({ titulo, descripcion, opciones }) {
+function TabsComponent({ titulo, descripcion, opciones }) {
     const [opcionActiva, setOpcionActiva] = useState(opciones[0])
 
     return (
@@ -14,7 +14,7 @@ function TabsCpomponent({ titulo, descripcion, opciones }) {
                             className="col text-center"
                             onClick={() => setOpcionActiva(opcion)}
                         >
-                            <p className="mb-2">{opcion.titulo}</p>
+                            <p className="mb-2 fw-bold">{opcion.titulo}</p>
                         </div>
                     )
                 })}
@@ -49,4 +49,4 @@ function TabsCpomponent({ titulo, descripcion, opciones }) {
     )
 }
 
-export default TabsCpomponent
+export default TabsComponent

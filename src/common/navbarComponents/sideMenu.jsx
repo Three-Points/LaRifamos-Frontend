@@ -1,3 +1,8 @@
+import user from '../../images/User.svg';
+import cross from '../../images/Cross.svg';
+import lupa from '../../images/Lupa.svg';
+
+
 function SideMenu({ enableScroll, onCrossClick }) {
     return (
         <div className="sideMenu ">
@@ -10,7 +15,7 @@ function SideMenu({ enableScroll, onCrossClick }) {
                     >
                         <img
                             className="img-side-menu"
-                            src="./imgs/User.svg"
+                            src={user}
                             alt=""
                         />
                     </a>
@@ -25,7 +30,7 @@ function SideMenu({ enableScroll, onCrossClick }) {
                         }}
                     >
                         <img
-                            src="./imgs/Cross.svg"
+                            src={cross}
                             alt=""
                             className="img-side-menu"
                         />
@@ -34,7 +39,7 @@ function SideMenu({ enableScroll, onCrossClick }) {
             </div>
             <div className="row mb-3 mx-3 side-search pb-1  ">
                 <span>
-                    <img src="./imgs/Lupa.svg" alt="" className="img-lupa" />
+                    <img src={lupa} alt="" className="img-lupa" />
                 </span>
                 <input
                     className="side-search-input"

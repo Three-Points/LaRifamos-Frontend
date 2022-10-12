@@ -7,7 +7,7 @@ import data from '../../data/onlyForMe.json'
 function HomePage() {
     const seccionParaTi = data.onlyForMe
     return (
-        <>
+        <div className="content">
             <InitialSection></InitialSection>
             {/* Sección iconos */}
             <FeaturesSection></FeaturesSection>
@@ -16,7 +16,7 @@ function HomePage() {
 
             {/* Sección Empieza a Ganar */}
             <StartWinningSection></StartWinningSection>
-        </>
+        </div>
     )
 }
 

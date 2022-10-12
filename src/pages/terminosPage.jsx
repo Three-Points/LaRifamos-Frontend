@@ -1,7 +1,7 @@
 function TerminosPage() {
     return (
-        <>
-            <div class="container">
+            <div class = "container content">
+
                 <h1>Términos y Condiciones</h1>
 
                 <p class="m-5">
@@ -52,7 +52,9 @@ function TerminosPage() {
                     la rifa.
                 </p>
             </div>
-        </>
+        
+
+
     )
 }
 

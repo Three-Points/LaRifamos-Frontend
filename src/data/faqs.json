@@ -1,101 +1,104 @@
 {
-    "faqs": [
-        {
-            "titulo": "Asuntos Generales",
-            "preguntas": [
-                {
-                    "pregunta": "¿Cómo genero mi código amigo?",
-                    "respuesta": "Tu código amigo se genera con tu primer compra confirmada. En ese momento te enviamos un correo electrónico y también puedes verlo en tu perfil de cuenta."
-                },
-                {
-                    "pregunta": "¿Cómo genero descuentos con mi código amigo?",
-                    "respuesta": "Debes compartir tu código con tus amigos. Por cada amigo que realice una compra utilizando tu código generarás descuentos para tus próximas compras!"
-                },
-                {
-                    "pregunta": "¿En que paises puedo participar?",
-                    "respuesta": "De momento solo en Uruguay"
-                }
-            ]
-        },
-        {
-            "titulo": "Nuestras Rifas",
-            "preguntas": [
-                {
-                    "pregunta": "¿Qué pasa si no se venden todos los números?",
-                    "respuesta": "Existen dos tipos de rifas, con mínimo y sin mínimo. Para las rifas con mínimo se debe llegar a la cantidad mínima de números reservados para que esta se realice. Para las rifas sin mínimo no importa la cantidad de números reservados que la rifa se realiza igual. En ambos casos no es necesario que se vendan todos los números."
-                },
-                {
-                    "pregunta": "La rifa no llego al mínimo de números y no se realizó, ¿si participe me cobraron el número?",
-                    "respuesta": "No, si la rifa no alcanzó el mínimo necesario no se cobra nada a los participantes."
-                },
-                {
-                    "pregunta": "Me perdí de ver el sorteo ¿Puedo volver a verlo?",
-                    "respuesta": "Si, el video del sorteo quedará en la plataforma y en nuestras redes sociales."
-                },
-                {
-                    "pregunta": "Soy menor de edad ¿puedo comprar?",
-                    "respuesta": "No, debido a la reglamentación vigente, no pueden participar menores de edad."
-                },
-                {
-                    "pregunta": "¿Hasta cuántos números puedo comprar?",
-                    "respuesta": "Puedes comprar todos los números que quieras comprar."
-                },
-                {
-                    "pregunta": "¿Cómo registro una nueva rifa?",
-                    "respuesta": "Completando el formulario de la sección 'Quiero rifar' y aclarando, en la casilla de descripción tu mail y que deseas que un agente comercial se contacte contigo."
-                },
-                {}
-            ]
-        },
-        {
-            "titulo": "Nuestro Registros",
-            "preguntas": [
-                {
-                    "pregunta": "¿Es gratis registrarme?",
-                    "respuesta": "Sí, el registro es totalmente gratis."
-                }
-            ]
-        },
-        {
-            "titulo": "Sobre Pagos",
-            "preguntas": [
-                {
-                    "pregunta": "¿Qué medios de pago ofrece la plataforma?",
-                    "respuesta": "Dependiendo de la rifa se puede pagar mediante Red Pagos (abonando en los locales o a través de la aplicación de Red Pagos con la tarjeta Mi Dinero) o con tarjetas de crédito a través de Mercado Pago."
-                },
-                {
-                    "pregunta": "¿Cómo pago en Red Pagos?",
-                    "respuesta": "Se debe mencionar Tucolecta.com y el número de colecta que se le envía al usuario por mail cuando compra números. También se solicitará por parte de Red Pagos los datos del comprador y un código de reserva que también será enviado via e-mail. Si cuentas con la tarjeta Mi Dinero también puedes pagar a través de la aplicación de Red Pagos."
-                },
-                {
-                    "pregunta": "¿Cómo pago con tarjeta de crédito?",
-                    "respuesta": "a plataforma procesa los pagos con tarjeta de credito a través de Mercado Pago. Si tu cuenta no tiene ingresada una tarjeta al momento, te solicitaremos hacer el registro de la misma y esta será almacenada en MercadoPago."
-                },
-                {
-                    "pregunta": "¿Cuánto tiempo tengo para pagar un número?",
-                    "respuesta": "Las reservas mediante Red Pagos tienen un vigencia de hasta 72 horas."
-                },
-                {
-                    "pregunta": "He realizado mi reserva con tarjeta de crédito, pero mi participación aún aparece pendiente de pago. ¿Es correcto?",
-                    "respuesta": "Es correcto que el pago se encuentre pendiente, pues desde LaRifamos no realizamos el cobro de la reserva hasta asegurar que se llegó al mínimo de reservas requeridas para habilitar la rifa. Si la rifa llega al mínimo, la rifa si o si se hace, hay un ganador y recién en este caso se realiza el cobro. En caso que la rifa no llegue al mínimo, la rifa no se realiza y por lo tanto no se realizan cobros a los usuarios. De esta forma, intentamos transmitir transparencia a ustedes (nuestros usuarios) del estado de su reserva y no realizar cargos contra la tarjeta hasta no estar seguros que la rifa será sorteada."
-                },
-                {
-                    "pregunta": "¿Cómo compro una rifa?",
-                    "respuesta": "Primero debes registrarte en la web, luego ve a rifas activas y selecciona la que más te guste. En cada rifa puedes comprar tantos números como desees. Algunas permiten pagar a través de Red Pagos y todas se pueden abonar con tarjeta a través de Mercado Pago."
-                },
-                {
-                    "pregunta": "¿Cómo puedo saber quién ganó?",
-                    "respuesta": "Puedes ver a los ganadores en nuestras redes sociales (Instagram y Facebook). También encontrarás todos los detalles de las rifas ya sorteadas en la sección Rifas Finalizadas de nuestra web."
-                },
-                {
-                    "pregunta": "¿Cómo genero mi código amigo?",
-                    "respuesta": "Tu código amigo se genera con tu primer compra confirmada. En ese momento te enviamos un correo electrónico y también puedes verlo en tu perfil de cuenta."
-                },
-                {
-                    "pregunta": "¿Cómo genero descuentos con mi código amigo?",
-                    "respuesta": "Debes compartir tu código con tus amigos. Por cada amigo que realice una compra utilizando tu código generarás descuentos para tus próximas compras!"
-                }
-            ]
-        }
-    ]
+   "faqs": [
+    {
+        "title": "Asuntos Generales",
+        "questions": [
+            {
+                "question": "¿Cómo genero mi código amigo?",
+                "answer": "Tu código amigo se genera con tu primer compra confirmada. En ese momento te enviamos un correo electrónico y también puedes verlo en tu perfil de cuenta."
+            }, 
+            {
+                "question": "¿Cómo genero descuentos con mi código amigo?", 
+                "answer": "Debes compartir tu código con tus amigos. Por cada amigo que realice una compra utilizando tu código generarás descuentos para tus próximas compras!"
+            }, 
+            {
+                "question": "¿En que paises puedo participar?",
+                "answer": "De momento solo en Uruguay"
+            }
+        ]
+    }, 
+    {
+        "title": "Nuestras Rifas", 
+        "questions": [
+            {
+                "question": "¿Qué pasa si no se venden todos los números?",
+                "answer": "Existen dos tipos de rifas, con mínimo y sin mínimo. Para las rifas con mínimo se debe llegar a la cantidad mínima de números reservados para que esta se realice. Para las rifas sin mínimo no importa la cantidad de números reservados que la rifa se realiza igual. En ambos casos no es necesario que se vendan todos los números."
+            }, 
+            {
+                "question": "La rifa no llego al mínimo de números y no se realizó, ¿si participe me cobraron el número?",
+                "answer": "No, si la rifa no alcanzó el mínimo necesario no se cobra nada a los participantes."
+            }, 
+            {
+                "question": "Me perdí de ver el sorteo ¿Puedo volver a verlo?", 
+                "answer": "Si, el video del sorteo quedará en la plataforma y en nuestras redes sociales."
+            }, 
+            {
+                "question": "Soy menor de edad ¿puedo comprar?",
+                "answer": "No, debido a la reglamentación vigente, no pueden participar menores de edad."
+            }, 
+            {
+                "question": "¿Hasta cuántos números puedo comprar?",
+                "answer": "Puedes comprar todos los números que quieras comprar."
+            },
+            {
+                "question": "¿Cómo registro una nueva rifa?",
+                "answer": "Completando el formulario de la sección 'Quiero rifar' y aclarando, en la casilla de descripción tu mail y que deseas que un agente comercial se contacte contigo."
+            },
+            {
+
+            }
+        ]
+    }, 
+    {
+        "title": "Nuestro Registros", 
+        "questions": [
+            {
+                "question": "¿Es gratis registrarme?",
+                "answer": "Sí, el registro es totalmente gratis."
+            }
+        ]
+    }, 
+    {
+        "title": "Sobre Pagos",
+        "questions": [
+            {
+                "question": "¿Qué medios de pago ofrece la plataforma?",
+                "answer": "Dependiendo de la rifa se puede pagar mediante Red Pagos (abonando en los locales o a través de la aplicación de Red Pagos con la tarjeta Mi Dinero) o con tarjetas de crédito a través de Mercado Pago."
+            },
+            {
+                "question": "¿Cómo pago en Red Pagos?", 
+                "answer": "Se debe mencionar Tucolecta.com y el número de colecta que se le envía al usuario por mail cuando compra números. También se solicitará por parte de Red Pagos los datos del comprador y un código de reserva que también será enviado via e-mail. Si cuentas con la tarjeta Mi Dinero también puedes pagar a través de la aplicación de Red Pagos."
+            }, 
+            {
+                "question": "¿Cómo pago con tarjeta de crédito?",
+                "answer": "a plataforma procesa los pagos con tarjeta de credito a través de Mercado Pago. Si tu cuenta no tiene ingresada una tarjeta al momento, te solicitaremos hacer el registro de la misma y esta será almacenada en MercadoPago."
+            }, 
+            {
+                "question": "¿Cuánto tiempo tengo para pagar un número?",
+                "answer": "Las reservas mediante Red Pagos tienen un vigencia de hasta 72 horas."
+            },
+            {
+                "question": "He realizado mi reserva con tarjeta de crédito, pero mi participación aún aparece pendiente de pago. ¿Es correcto?",
+                "answer": "Es correcto que el pago se encuentre pendiente, pues desde LaRifamos no realizamos el cobro de la reserva hasta asegurar que se llegó al mínimo de reservas requeridas para habilitar la rifa. Si la rifa llega al mínimo, la rifa si o si se hace, hay un ganador y recién en este caso se realiza el cobro. En caso que la rifa no llegue al mínimo, la rifa no se realiza y por lo tanto no se realizan cobros a los usuarios. De esta forma, intentamos transmitir transparencia a ustedes (nuestros usuarios) del estado de su reserva y no realizar cargos contra la tarjeta hasta no estar seguros que la rifa será sorteada."
+            },
+            {
+                "question": "¿Cómo compro una rifa?",
+                "answer": "Primero debes registrarte en la web, luego ve a rifas activas y selecciona la que más te guste. En cada rifa puedes comprar tantos números como desees. Algunas permiten pagar a través de Red Pagos y todas se pueden abonar con tarjeta a través de Mercado Pago."
+            },
+            {
+                "question": "¿Cómo puedo saber quién ganó?",
+                "answer": "Puedes ver a los ganadores en nuestras redes sociales (Instagram y Facebook). También encontrarás todos los detalles de las rifas ya sorteadas en la sección Rifas Finalizadas de nuestra web."
+            },
+            {
+                "question": "¿Cómo genero mi código amigo?",
+                "answer": "Tu código amigo se genera con tu primer compra confirmada. En ese momento te enviamos un correo electrónico y también puedes verlo en tu perfil de cuenta."
+            },
+            {
+                "question": "¿Cómo genero descuentos con mi código amigo?",
+                "answer": "Debes compartir tu código con tus amigos. Por cada amigo que realice una compra utilizando tu código generarás descuentos para tus próximas compras!"
+            }
+            
+        ]
+    }
+   ] 
 }
