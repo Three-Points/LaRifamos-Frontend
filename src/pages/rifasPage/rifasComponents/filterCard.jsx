@@ -18,8 +18,7 @@ function FilterCard({ type, title, image }) {
             setCategoryCard(''); 
         }
           
-    }
-  };
+    };
 
     return (
         <div className="category-filter-container d-flex justify-content-center flex-column text-center">

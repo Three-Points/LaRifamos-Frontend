@@ -4,8 +4,6 @@ import { RaffleContext } from "../raffleDetailPage";
 function RaffleDetailDescription() {
   const { raffle, setRaffle } = useContext(RaffleContext);
 
-    const {raffle, setRaffle} = useContext(RaffleContext); 
-
     return (
         <div className="col-12 col-lg-7 order-1 order-lg-0 mt-5 mt-md-0">
             <div className="d-flex align-content-center align-items-center gap-5">

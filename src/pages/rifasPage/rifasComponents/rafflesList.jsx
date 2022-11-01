@@ -2,9 +2,6 @@ import { useContext } from "react";
 import { CategoryCardContext } from "../rafflesPage";
 import RaffleCard from "./raffleCard";
 
-function RafflesList({ raffles, search }) {
-  const { categoryCard } = useContext(CategoryCardContext);
-
 function RafflesList({raffles, search}) {
 
     const {categoryCard} = useContext(CategoryCardContext); 
