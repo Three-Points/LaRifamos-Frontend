@@ -1,24 +1,29 @@
 {
-  "filters": [
-    {
-      "title": "Celulares",
-      "image": "./imgs/mobile.svg"
-    },
-    {
-      "title": "Televisores",
-      "image": "./imgs/RetroTv.svg"
-    },
-    {
-      "title": "Consolas",
-      "image": "./imgs/playHands.svg"
-    },
-    {
-      "title": "Eventos",
-      "image": "./imgs/event.svg"
-    },
-    {
-      "title": "Viajes",
-      "image": "./imgs/plane.svg"
-    }
-  ]
+    "filters": [
+        {
+            "type": "CELLPHONE",
+            "title": "Celulares" ,
+            "image": "./imgs/mobile.svg"
+        }, 
+        {
+            "type": "TV",
+            "title": "Televisores",
+            "image": "./imgs/RetroTv.svg"
+        }, 
+        {
+            "type": "COMMON",
+            "title": "Consolas",
+            "image": "./imgs/playHands.svg"
+        },
+        {
+            "type": "EVENT",
+            "title":"Eventos",
+            "image": "./imgs/event.svg"
+        },
+        {
+            "type": "TRAVEL",
+            "title": "Viajes",
+            "image": "./imgs/plane.svg"
+        }
+    ]
 }

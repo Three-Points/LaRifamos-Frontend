@@ -12,18 +12,19 @@ function RaffleDetailPage() {
   const [showRaffle, setShowRaffle] = useState(false);
   const params = useParams();
 
-  useEffect(() => {
-    console.log(params.id);
-    getRaffleDetail(params.id)
-      .then((response) => {
-        console.log(response);
-        setRaffle(response.data);
-        setShowRaffle(true);
-      })
-      .catch((error) => {
-        //Do something with error
-      });
-  }, []);
+    useEffect(() => {
+        console.log(params.id)
+        getRaffleDetail(params.id)
+            .then((response) => {
+                console.log(response.data); 
+                setRaffle(response.data);
+                setShowRaffle(true);
+            })
+            .catch((error) => {
+                //Do something with error
+            })
+    }, [])
+
 
   return (
     <div className="container mb-5 content">

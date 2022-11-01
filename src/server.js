@@ -1,6 +1,7 @@
-import { createServer, Factory, JSONAPISerializer, Model } from "miragejs";
-import data from "./data/rifasPage.mock.json";
-import { faker } from "@faker-js/faker";
+import { createServer, Factory, JSONAPISerializer, Model } from 'miragejs'
+import data from './data/rifasPage.mock.json'
+import { faker } from '@faker-js/faker'
+
 
 const raffles = data.raffles;
 const generator = (schema, min = 1, max) => {
@@ -129,6 +130,6 @@ export function makeServer({ environment = "development" } = {}) {
       });
     },
   });
-
   return server;
 }
+
