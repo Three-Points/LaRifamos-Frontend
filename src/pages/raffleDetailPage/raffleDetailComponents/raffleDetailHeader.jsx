@@ -1,8 +1,7 @@
 import { faToiletPaper } from "@fortawesome/free-solid-svg-icons";
 import { useContext } from "react";
 import { RaffleContext } from "../raffleDetailPage";
-import icon from '../../../images/Icon.png';
-
+import icon from "../../../images/Icon.png";
 
 function RaffleDetailHeader() {
     const {raffle, setRaffle} = useContext(RaffleContext); 
@@ -16,4 +15,4 @@ function RaffleDetailHeader() {
     )
 }
 
-export default RaffleDetailHeader; 
+export default RaffleDetailHeader;

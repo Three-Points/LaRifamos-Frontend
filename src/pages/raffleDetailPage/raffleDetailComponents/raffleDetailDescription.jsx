@@ -1,7 +1,8 @@
-import { useContext } from "react"
-import { RaffleContext } from "../raffleDetailPage"
+import { useContext } from "react";
+import { RaffleContext } from "../raffleDetailPage";
 
 function RaffleDetailDescription() {
+  const { raffle, setRaffle } = useContext(RaffleContext);
 
     const {raffle, setRaffle} = useContext(RaffleContext); 
 
@@ -20,6 +21,7 @@ function RaffleDetailDescription() {
             </div>
         </div>
     )
+
 }
 
-export default RaffleDetailDescription
+export default RaffleDetailDescription;

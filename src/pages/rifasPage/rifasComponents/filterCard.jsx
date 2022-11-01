@@ -1,6 +1,6 @@
-import { useContext, useEffect, useState } from 'react'
-import { CategoryCardContext } from '../rafflesPage'
-import { ActiveFilterContext } from './rafflesFilters'
+import { useContext, useEffect, useState } from "react";
+import { CategoryCardContext } from "../rafflesPage";
+import { ActiveFilterContext } from "./rafflesFilters";
 
 function FilterCard({ type, title, image }) {
     const { categoryCard, setCategoryCard } = useContext(CategoryCardContext)
@@ -19,6 +19,7 @@ function FilterCard({ type, title, image }) {
         }
           
     }
+  };
 
     return (
         <div className="category-filter-container d-flex justify-content-center flex-column text-center">
@@ -29,8 +30,8 @@ function FilterCard({ type, title, image }) {
                 <img src={image} alt="" />
             </div>
 
-            <p>{title}</p>
-        </div>
-    )
+      <p>{title}</p>
+    </div>
+  );
 }
-export default FilterCard
+export default FilterCard;

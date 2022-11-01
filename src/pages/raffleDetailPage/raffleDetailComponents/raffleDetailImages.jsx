@@ -1,11 +1,12 @@
-import { useCallback, useContext, useState } from 'react'
-import ImageViewer from 'react-simple-image-viewer'
-import { ViewWidthContext } from '../../../App'
-import { RaffleContext } from '../raffleDetailPage'
-import RaffleLargeImageComponent from './raffleDetailImagesComponents/raffleLargeImageComponent'
-import RaffleSliderImageComponent from './raffleDetailImagesComponents/raffleSliderImageComponent'
+import { useCallback, useContext, useState } from "react";
+import ImageViewer from "react-simple-image-viewer";
+import { ViewWidthContext } from "../../../App";
+import { RaffleContext } from "../raffleDetailPage";
+import RaffleLargeImageComponent from "./raffleDetailImagesComponents/raffleLargeImageComponent";
+import RaffleSliderImageComponent from "./raffleDetailImagesComponents/raffleSliderImageComponent";
 
 function RaffleDetailImages() {
+
     const { raffle, setRaffle } = useContext(RaffleContext)
     const [currentImage, setCurrentImage] = useState(0)
     const [isViewerOpen, setIsViewerOpen] = useState(false)
@@ -14,12 +15,14 @@ function RaffleDetailImages() {
         return image.url
     })
 
-    const { viewWidth, setViewWidth } = useContext(ViewWidthContext)
 
-    const openImageViewer = useCallback((index) => {
-        setCurrentImage(index)
-        setIsViewerOpen(true)
-    }, [])
+  const { viewWidth, setViewWidth } = useContext(ViewWidthContext);
+
+  const openImageViewer = useCallback((index) => {
+    setCurrentImage(index);
+    setIsViewerOpen(true);
+  }, []);
+
 
     const closeImageViewer = () => {
         setCurrentImage(0)
@@ -52,6 +55,7 @@ function RaffleDetailImages() {
             )}
         </div>
     )
+
 }
 
-export default RaffleDetailImages
+export default RaffleDetailImages;
