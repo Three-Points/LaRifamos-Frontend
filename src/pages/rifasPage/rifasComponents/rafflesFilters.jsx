@@ -38,6 +38,7 @@ function RafflesFilters() {
                                 {filters.map((filter) => {
                                     return (
                                         <FilterCard
+                                            type={filter.type}
                                             title={filter.title}
                                             image={filter.image}
                                         ></FilterCard>

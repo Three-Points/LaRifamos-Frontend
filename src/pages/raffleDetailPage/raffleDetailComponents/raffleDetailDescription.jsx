@@ -8,7 +8,7 @@ function RaffleDetailDescription() {
     return (
         <div className="col-12 col-lg-7 order-1 order-lg-0 mt-5 mt-md-0">
             <div className="d-flex align-content-center align-items-center gap-5">
-                <h3>Sorteado por {raffle.user}</h3>
+                <h3>Sorteado por John Doe</h3>
                 <span className="rifa-detail-img-profile">
                     <img src="" alt="" />
                 </span>

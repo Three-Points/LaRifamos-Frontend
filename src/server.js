@@ -1,4 +1,4 @@
-import { createServer, Factory, JSONAPISerializer, Model } from 'miragejs'
+/**import { createServer, Factory, JSONAPISerializer, Model } from 'miragejs'
 import data from './data/rifasPage.mock.json'
 import { faker } from '@faker-js/faker'
 
@@ -130,4 +130,4 @@ export function makeServer({ environment = 'development' } = {}) {
     })
 
     return server
-}
+}*/

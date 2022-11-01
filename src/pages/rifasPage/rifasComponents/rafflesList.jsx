@@ -11,16 +11,16 @@ function RafflesList({raffles, search}) {
         <>
             <div className="container px-lg-2 mt-5 mb-5">
                 <div className="px-lg-2 d-flex justify-content-center justify-content-xl-start flex-row flex-wrap gap-3">
-                    {raffles.filter((raffle) => raffle.title.includes(search))
-                            .filter((raffle) => raffle.category === (categoryCard.title) || categoryCard === "")
+                    {raffles.filter((raffle) => raffle.name.includes(search))
+                            .filter((raffle) => raffle.category === (categoryCard.type) || categoryCard === "")
                             .map((raffle) => {
-                                return <RaffleCard init_date={raffle.init_date}
+                                return <RaffleCard init_date={raffle.drawDate}
                                             id={raffle.id}
-                                            image={raffle.images[0].url}
+                                            image={raffle.products[0].images[0]}
                                             participants={raffle.participants}
-                                            price={raffle.price}
-                                            title={raffle.title}
-                                            total_participants={raffle.total_participants}></RaffleCard>;
+                                            price={raffle.ticketCost}
+                                            title={raffle.name}
+                                            total_participants="50"></RaffleCard>;
                             })}
                 </div>
             </div>

@@ -16,7 +16,7 @@ function RaffleDetailPage() {
         console.log(params.id)
         getRaffleDetail(params.id)
             .then((response) => {
-                console.log(response); 
+                console.log(response.data); 
                 setRaffle(response.data);
                 setShowRaffle(true);
             })

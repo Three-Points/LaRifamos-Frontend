@@ -8,9 +8,9 @@ function RaffleDetailHeader() {
     const {raffle, setRaffle} = useContext(RaffleContext); 
     return (
         <div className="container ps-4 mt-4">
-            <h3>{raffle.title}</h3>
+            <h3>{raffle.name}</h3>
             <span>
-                <img src={icon} className="mr-2"  alt="" /> {raffle.participants} de {raffle.total_participants}
+                <img src={icon} className="mr-2"  alt="" /> {raffle.participants} de 50
             </span>
         </div>
     )

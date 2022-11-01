@@ -1,22 +1,27 @@
 {
     "filters": [
         {
+            "type": "CELLPHONE",
             "title": "Celulares" ,
             "image": "./imgs/mobile.svg"
         }, 
         {
+            "type": "TV",
             "title": "Televisores",
             "image": "./imgs/RetroTv.svg"
         }, 
         {
+            "type": "COMMON",
             "title": "Consolas",
             "image": "./imgs/playHands.svg"
         },
         {
+            "type": "EVENT",
             "title":"Eventos",
             "image": "./imgs/event.svg"
         },
         {
+            "type": "TRAVEL",
             "title": "Viajes",
             "image": "./imgs/plane.svg"
         }

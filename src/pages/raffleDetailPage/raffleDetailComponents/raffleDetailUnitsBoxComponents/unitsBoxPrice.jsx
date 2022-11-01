@@ -25,7 +25,7 @@ function UnitsBoxPrice() {
             <div class="col-12 rifa-detail-table-cell d-flex align-items-center flex-wrap">
                 <span class="h6 m-2">Precio por participación: </span>
 
-                <span class="h6 fs-4 m-2">${raffle.price * units}</span>
+                <span class="h6 fs-4 m-2">${raffle.ticketCost * units}</span>
             </div>
             <div className="col-12 rifa-detail-table-cell d-flex align-items-center">
                 <p className='h6 m-2'>Unidades: </p>

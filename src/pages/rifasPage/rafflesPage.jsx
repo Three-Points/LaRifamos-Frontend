@@ -19,7 +19,7 @@ function RafflesPage() {
         getRaffles().then((response) => {
             console.log(response.data);
             let raffles_obtained = {
-                "raffles": response.data
+                "raffles": response.data.results
             }
             console.log(raffles_obtained); 
             setRaffles(raffles_obtained.raffles); 

@@ -9,8 +9,8 @@ function RaffleDetailImages() {
     const { raffle, setRaffle } = useContext(RaffleContext)
     const [currentImage, setCurrentImage] = useState(0)
     const [isViewerOpen, setIsViewerOpen] = useState(false)
-    const secondaryImages = raffle.images.slice(1, 5)
-    const imagesViewer = raffle.images.map((image) => {
+    const secondaryImages = raffle.products[0].images.slice(1); 
+    const imagesViewer = raffle.products[0].images.map((image) => {
         return image.url
     })
 
@@ -41,13 +41,13 @@ function RaffleDetailImages() {
             )}
             {viewWidth > 768 ? (
                 <RaffleLargeImageComponent
-                    firstImage={raffle.images[0].url}
+                    firstImage={raffle.products[0].images[0].url}
                     secondaryImages={secondaryImages}
                     onClickImage={(int) => openImageViewer(int)}
                 ></RaffleLargeImageComponent>
             ) : (
                 <RaffleSliderImageComponent
-                    images={raffle.images}
+                    images={raffle.products[0].images}
                 ></RaffleSliderImageComponent>
             )}
         </div>
