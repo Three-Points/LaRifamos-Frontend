@@ -336,7 +336,7 @@ footer {
   position: absolute;
   left: 85%;
   top: 2%;
-  z-index: 1000;
+  z-index: 1;
   background-color: #92AD4000;
   padding: 5px;
   color: #FFFFFF;
