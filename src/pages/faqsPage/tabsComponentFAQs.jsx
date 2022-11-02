@@ -36,7 +36,7 @@ function TabsComponentFAQS({ questions }) {
         })}
       </div>
       <div className="container px-lg-4 mt-5 d-flex align-items-center align-content-center">
-        <div className="col-12 px-5">
+        <div className="col-12 px-2 px-md-5">
           {opcionActiva.questions.map((question) => {
             return (
               <>

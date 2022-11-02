@@ -2,7 +2,7 @@ function AboutUsPage() {
   return (
     <>
       <div class="container content">
-        <div class="row m-5">
+        <div class="row m-2 m-md-5">
           <h1> Nosotros </h1>
 
           <p>
@@ -12,7 +12,7 @@ function AboutUsPage() {
           </p>
         </div>
 
-        <div class="row m-5">
+        <div class="row m-2 m-md-5">
           <h2> Misión </h2>
 
           <p>
@@ -21,13 +21,13 @@ function AboutUsPage() {
           </p>
         </div>
 
-        <div class="row m-5">
+        <div class="row m-2 m-md-5">
           <h2> Visión </h2>
 
           <p>Ser la empresa uruguaya líder en venta de rifas online</p>
         </div>
 
-        <div class="row m-5">
+        <div class="row m-2 m-md-5">
           <h1>Como surge</h1>
 
           <p class="body">

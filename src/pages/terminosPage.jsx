@@ -3,7 +3,7 @@ function TerminosPage() {
     <div class="container content">
       <h1>Términos y Condiciones</h1>
 
-      <p class="m-5">
+      <p class="m-2 m-md-5">
         Seguimos la reglamentación vigente Uruguaya. Un beneficiario requiere:
         <br />
         <br />
