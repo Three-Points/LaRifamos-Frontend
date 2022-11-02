@@ -322,12 +322,29 @@ footer {
   justify-content: center;
   width: 100%;
   height: 65%;
+  position:relative;
 }
 
 .rifa-card-img {
   width: 100%;
   height: 100%;
   border-radius: 10px;
+}
+
+.rifa-like{
+  float: right;
+  position: absolute;
+  left: 85%;
+  top: 2%;
+  z-index: 1000;
+  background-color: #92AD4000;
+  padding: 5px;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.rifa-liked{
+  color: red; 
 }
 
 .rifa-card-txt > * {

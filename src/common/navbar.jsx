@@ -33,7 +33,7 @@ function Navbar() {
       ) : (
         <></>
       )}
-      <nav id="barraNavegacion" class="container mt-4 mb-0">
+      <nav id="barraNavegacion" class="container mt-4 mb-3 mb-md-0">
         <LogoComponent></LogoComponent>
         <ProfileButtonComponent
           disableScroll={() => disableScroll()}

@@ -3,8 +3,8 @@ import logo from "../../images/Logo_LaRifamos.png";
 
 function LogoComponent() {
   return (
-    <div className="d-flex flex-lg-grow-1 align-items-center mb-3 order-1">
-      <ul className="d-flex align-items-center">
+    <div className="d-flex flex-lg-grow-1 align-items-center order-1">
+      <ul className="d-flex align-items-center p-0">
         <li className="short">
           <Link to="/">
             <img className="logo" src={logo} alt="" />
