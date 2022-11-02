@@ -4,6 +4,7 @@ import SearchButton from "./rifasComponents/searchButton";
 import RafflesList from "./rifasComponents/rafflesList";
 import RafflesFilters from "./rifasComponents/rafflesFilters";
 import { getRaffles } from "../../services/raffles.service";
+import Spinner from "../../common/spinner";
 
 export const CategoryCardContext = createContext();
 export const SearchRaffleContext = createContext();
@@ -38,7 +39,7 @@ function RafflesPage() {
           {showRaffles ? (
             <RafflesList raffles={raffles} search={search}></RafflesList>
           ) : (
-            <></>
+            <Spinner></Spinner>
           )}
         </SearchRaffleContext.Provider>
       </CategoryCardContext.Provider>

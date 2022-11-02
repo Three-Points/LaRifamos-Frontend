@@ -1,5 +1,6 @@
 import { createContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import Spinner from "../../common/spinner";
 import { getRaffleDetail } from "../../services/raffles.service";
 import RaffleDetailContainer from "./raffleDetailComponents/raffleDetailContainer";
 import RaffleDetailHeader from "./raffleDetailComponents/raffleDetailHeader";
@@ -36,7 +37,7 @@ function RaffleDetailPage() {
             <RaffleDetailContainer></RaffleDetailContainer>
           </>
         ) : (
-          <></>
+          <Spinner></Spinner>
         )}
       </RaffleContext.Provider>
     </div>
